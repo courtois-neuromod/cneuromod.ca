@@ -1,0 +1,6 @@
+baseURL = "http://cneuromod.ca"
+languageCode = "en-us"
+title = "Courtois NeuroMod"
+theme = "hugo-terrassa-theme-2.4"
+[params.social]
+    twitter = "https://twitter.com/CNeuromod"
