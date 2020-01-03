@@ -141,7 +141,6 @@
 /* HERO */
 .hero {
 	align-content: center;
-	background-color: var(--background-fill);
 	background-attachment: fixed;
 	background-position: 100% 20%;
 	background-repeat: no-repeat;
@@ -197,7 +196,6 @@
 
 /* CONTENT */
 .content {
-	background-color: var(--white);
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -228,7 +226,6 @@
 
 /* POST */
 .post {
-	background-color: var(--white);
 	min-height: 90vh;
 	text-justify: distribute;
 }
@@ -263,7 +260,6 @@
 }
 
 .post__body {
-	background-color: var(--white);
 	margin: 1.75rem 24% 0.75rem;
 }
 

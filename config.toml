@@ -1,6 +1,28 @@
 baseURL = "http://cneuromod.ca"
 languageCode = "en-us"
-title = "Courtois NeuroMod"
+title = "CNeuroMod"
 theme = "hugo-terrassa-theme-2.4"
+
+[params]
+    description = "Courtois Project on Neuronal Modelling" # Description for the meta description tag
+    favicon = "images/favicon.png"     # Relative URL for your favicon
+    logo = "images/cneuromod_logo.svg"        # Absolute URL for your logo
+
 [params.social]
+    github = "https://github.com/courtois-neuromod"
     twitter = "https://twitter.com/CNeuromod"
+    youtube = "https://www.youtube.com/channel/UCjeuWWEmZt5Zbx0LBiPbDJw"
+
+[params.hero]
+    textColor = "36ad5d" # Empty for default color
+
+[params.cta] # Call To Action
+    show = true
+    cta = "Get Access"  # Text message of the CTA
+    link = "access" # Relative URL
+
+[params.contact]
+    email = "courtois.neuromod@gmail.com"
+    phone = ""
+    skype = ""
+    address = ""

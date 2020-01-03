@@ -1,0 +1,41 @@
+:root {
+    /* Colors */
+    --primary: #2dd865;
+    --primary-dark: #36ad5d; /* Title */
+    --primary-light: #36ad5d;
+    --primary-text: #eeeeee;
+    --secondary-text: #dddddd;
+    --accent: #36ad5d;
+    --divider: #36ad5d;
+    --white: #222222;
+    --background-fill: #171717;
+}
+
+body {
+  background-color: var(--white);
+}
+
+.hero {
+	background-color: var(--background-fill);
+  background-position: center;
+}
+
+.hero__caption {
+  color: var(--primary-dark);
+}
+
+.content {
+	background-color: var(--white);
+}
+
+.section {
+	background-color: var(--white);
+}
+
+.post {
+	background-color: var(--white);
+}
+
+.post__body {
+	background-color: var(--white);
+}
