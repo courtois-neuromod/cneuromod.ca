@@ -1,0 +1,45 @@
+{{ if isset .Site.Params "carousel" }}
+{{ if .Site.Params.carousel.enable }}
+{{ if gt (len .Site.Data.carousel) 0 }}
+<section>
+    <div class="carousel-intro">
+        {{ .Content }}
+    </div>  
+    <div id="carouselAcquisitions" class="carousel slide" data-ride="carousel" data-interval=false>
+
+        <ol class="carousel-indicators">
+          {{ range $index, $val := (sort .Site.Data.carousel "weight") }}
+          {{ if eq .weight 0}}
+          <li data-target="#carouselAcquisitions" data-slide-to="{{ $index }}" class="active"></li>
+          {{ else }}
+          <li data-target="#carouselAcquisitions" data-slide-to="{{ $index }}"></li>
+          {{ end }}
+          {{ end }}
+        </ol>
+        <div class="carousel-inner">
+            {{ range sort .Site.Data.carousel "weight" }}
+            {{ if eq .weight 0 }}
+            <div style="background-image: url( {{.image}} );" class="carousel-item active">
+            {{ else }}
+            <div style="background-image: url( {{.image}} );" class="carousel-item">
+            {{end}}
+                <div class="carousel-caption">
+                    <h5> {{ .title }} </h5>
+                    <p> {{ .description | safeHTML }} </p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <a class="carousel-control-prev" href="#carouselAcquisitions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselAcquisitions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,5 @@
+weight: 1
+title: "MEG"
+description: >
+  Magnetoencephalography (MEG) data is being acquired at the Université de Montréal <a href="https://www.webdepot.umontreal.ca/Usagers/jolicop/MonDepotPublic/MEG_files/MEGmain.html">laboratory</a>.
+image: "meg.jpg"

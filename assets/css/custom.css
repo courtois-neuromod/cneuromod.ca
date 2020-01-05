@@ -8,6 +8,7 @@
     --accent: #36ad5d;
     --divider: #36ad5d;
     --white: #222222;
+    --background-caption: #22222299;
     --background-fill: #171717;
 }
 
@@ -38,4 +39,32 @@ body {
 
 .post__body {
 	background-color: var(--white);
+}
+
+.carousel-intro{
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+}
+
+.carousel-inner{
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+  max-height: 700px !important;
+}
+
+.carousel-item{
+  height: 700px;
+  background-size: cover;
+  background-position: center, center;
+}
+
+.responsive{
+  width: 50%;
+  height: auto;
+}
+
+.carousel-caption{
+  background-color: var(--background-caption);
 }

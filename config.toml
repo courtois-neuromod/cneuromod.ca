@@ -8,6 +8,9 @@ theme = "hugo-terrassa-theme-2.4"
     favicon = "images/favicon.png"     # Relative URL for your favicon
     logo = "images/cneuromod_logo.svg"        # Absolute URL for your logo
 
+[params.carousel]
+    enable = true
+    
 [params.social]
     github = "https://github.com/courtois-neuromod"
     twitter = "https://twitter.com/CNeuromod"

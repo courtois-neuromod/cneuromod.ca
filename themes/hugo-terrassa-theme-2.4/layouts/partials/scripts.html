@@ -1,6 +1,8 @@
 {{ $header := resources.Get "js/header.js" }}
 {{ $form := resources.Get "js/form.js" }}
-{{ $bundle := slice $header $form | resources.Concat "js/bundle.js" }}
+{{ $jquery := resources.Get "js/jquery-3.4.1.min.js" }}
+{{ $boot := resources.Get "js/bootstrap.min.js" }}
+{{ $bundle := slice $header $form $jquery $boot | resources.Concat "js/bundle.js" }}
 {{ $js := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
 
 <script src="{{ $js.Permalink }}"></script>
