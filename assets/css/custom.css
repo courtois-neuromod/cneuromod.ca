@@ -68,3 +68,103 @@ body {
 .carousel-caption{
   background-color: var(--background-caption);
 }
+
+.icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  line-height: 80px;
+  border-radius: 40px;
+  border: solid 1px #fff;
+  font-size: 20px;
+}
+.icon.icon-lg {
+  font-size: 30px;
+  border-width: 2px;
+}
+.ul-icons {
+  padding-left: 10px;
+}
+.ul-icons li {
+  list-style-type: none;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.ul-icons li i {
+  width: 20px;
+  height: 20px;
+  background: #38a7bb;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+.box-simple {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.box-simple .icon {
+  color: var(--primary);
+  border-color: var(--primary);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.box-simple h3 {
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #555555;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.box-simple h3 a {
+  color: #555555;
+}
+.box-simple p {
+  color: #999999;
+}
+.box-simple:hover .icon {
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+.box-simple:hover .icon i {
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.box-simple.box-white {
+  padding: 20px;
+  border: dotted 1px #999999;
+}
+.box-simple.box-white .icon {
+  color: #555555;
+  border-color: transparent;
+  font-size: 70px;
+}
+.box-simple.box-dark {
+  padding: 20px;
+  border: dotted 1px #999999;
+  background: #555555;
+  color: #fff;
+}
+.box-simple.box-dark .icon {
+  color: #f7f7f7;
+  border-color: transparent;
+  font-size: 70px;
+}
+.box-simple.box-dark h3 {
+  color: #fff;
+}
+.box-simple.box-dark h3 a {
+  color: #fff;
+}
+.box-simple.box-dark p {
+  color: #fff;
+}

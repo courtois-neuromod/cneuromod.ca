@@ -1,0 +1,5 @@
+weight: 5
+name: "BioSignals"
+icon: "fas fa-file-medical-alt"
+url: "https://docs.cneuromod.ca/en/2020-alpha/MRI.html#mri"
+description: "Biosignals are collected concurrent to imaging, including cardiac, respiratory, skin conductance and high-resolution high tracking signals"

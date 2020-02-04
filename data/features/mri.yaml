@@ -1,0 +1,5 @@
+weight: 3
+name: "fMRI"
+icon: "fas fa-magnet"
+url: "https://docs.cneuromod.ca/en/2020-alpha/MRI.html#mri"
+description: "Functional Magnetic Resonance Imaging is acquired on a 3T Prisma Siemens, using simultaneous multislice sequences"
