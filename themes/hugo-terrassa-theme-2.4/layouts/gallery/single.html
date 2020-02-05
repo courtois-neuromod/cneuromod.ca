@@ -3,12 +3,9 @@
 <article class="post">
     <header class="post__header">
         <h1 class="post__title">{{ .Title }}</h1>
-        {{ if .Description }}
-        <p class="post__subtitle">{{ .Description }}</p>
-        {{ end }}        
     </header>
 
-    {{ partial "carousel.html" . }}
+    {{ partial "gallery.html" . }}
 
     {{ if ne .Type "page" }}
     <footer class="post__footer">
