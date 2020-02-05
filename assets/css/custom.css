@@ -76,8 +76,8 @@ body {
   color: #fff;
   line-height: 80px;
   border-radius: 40px;
-  border: solid 1px #fff;
-  font-size: 20px;
+  border: solid 2px #fff;
+  font-size: 40px;
 }
 .icon.icon-lg {
   font-size: 30px;
@@ -117,15 +117,15 @@ body {
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.5;
-  color: #555555;
+  color: var(--primary-text);
   font-weight: 800;
   letter-spacing: 0.08em;
 }
 .box-simple h3 a {
-  color: #555555;
+  color: var(--primary-text);
 }
 .box-simple p {
-  color: #999999;
+  color: var(--secondary-text);
 }
 .box-simple:hover .icon {
   -webkit-transform: scale(1.1, 1.1);
@@ -139,32 +139,16 @@ body {
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
 }
-.box-simple.box-white {
-  padding: 20px;
-  border: dotted 1px #999999;
+
+.logo-about {
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.box-simple.box-white .icon {
-  color: #555555;
-  border-color: transparent;
-  font-size: 70px;
-}
-.box-simple.box-dark {
-  padding: 20px;
-  border: dotted 1px #999999;
-  background: #555555;
-  color: #fff;
-}
-.box-simple.box-dark .icon {
-  color: #f7f7f7;
-  border-color: transparent;
-  font-size: 70px;
-}
-.box-simple.box-dark h3 {
-  color: #fff;
-}
-.box-simple.box-dark h3 a {
-  color: #fff;
-}
-.box-simple.box-dark p {
-  color: #fff;
+
+.img-about {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
