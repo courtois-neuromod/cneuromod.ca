@@ -5,6 +5,6 @@
 {{ $bundle := slice $header $form $jquery $boot | resources.Concat "js/bundle.js" }}
 {{ $js := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
 
-<script src="{{ $js.Permalink }}"></script>
+<script type="text/javascript" src="{{ $js.Permalink }}"></script>
 
 {{ partial "fontawesome.html" . }}

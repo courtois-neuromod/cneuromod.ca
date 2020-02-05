@@ -9,4 +9,4 @@
 
 {{ $css := $bundle | resources.Minify }}
 
-<link rel="stylesheet" href="{{ $css.Permalink }}">
+<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}">
