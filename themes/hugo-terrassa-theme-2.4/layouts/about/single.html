@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">{{ .Title }}</h1>
+    </header>
+
+    <div class="carousel-intro">
+        {{ .Content }}
+
+        {{ range $index, $element := sort .Site.Data.about "weight" }}
+        {{ if eq (mod $index 3) 0 }}
+        <div class="col-md-12">
+            <div class="row">
+        {{ end }}
+                <div class="col-md-4 logo-about">
+                    <a href="{{ $element.url }}">
+                        <img class="img-about" src="{{ $element.image }}">
+                    </a>
+                </div>
+        {{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.about) 1 )) }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    {{ if ne .Type "page" }}
+    <footer class="post__footer">
+        {{ .Render "tags" }}
+    </footer>
+    {{ end }}
+</article>
+{{ end }}
