@@ -205,6 +205,7 @@
 
 /* CARD */
 .card {
+	background-color: var(--white);
 	margin-bottom: 1.75rem;
 	max-width: 900px;
 	text-justify: distribute;
@@ -212,11 +213,11 @@
 }
 
 .card__header__link {
-	color: var(--primary-text);
+	color: var(--secondary-text);
 }
 
 .card__header__link:hover {
-	color: var(--primary);
+	color: var(--primary-text);
 }
 
 .card__header__author {

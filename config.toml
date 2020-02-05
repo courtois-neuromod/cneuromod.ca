@@ -8,6 +8,9 @@ theme = "hugo-terrassa-theme-2.4"
     favicon = "images/favicon.png"     # Relative URL for your favicon
     logo = "images/cneuromod_logo.svg"        # Absolute URL for your logo
 
+[params.posts]
+    showAuthor = true
+    
 [params.features]
     enable = true
     # All features are defined in their own files. You can find example items

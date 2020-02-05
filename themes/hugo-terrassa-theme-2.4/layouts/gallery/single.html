@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">{{ .Title }}</h1>
+    </header>
+
+    {{ partial "gallery.html" . }}
+
+    {{ if ne .Type "page" }}
+    <footer class="post__footer">
+        {{ .Render "tags" }}
+    </footer>
+    {{ end }}
+</article>
+{{ end }}

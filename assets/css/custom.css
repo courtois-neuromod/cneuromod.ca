@@ -101,6 +101,37 @@ body {
   line-height: 20px;
   margin-right: 10px;
 }
+.box-img {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.box-img .dataset-title {
+  color: var(--primary-dark);
+}
+
+.box-img .img {
+  color: var(--primary);
+  border-color: var(--primary);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.dataset{
+  margin-left: auto;
+  margin-right:auto;
+}
+.icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  line-height: 80px;
+  border-radius: 40px;
+  border: solid 1px #fff;
+  font-size: 20px;
+}
+
 .box-simple {
   text-align: center;
   margin-bottom: 40px;
