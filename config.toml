@@ -10,7 +10,9 @@ theme = "hugo-terrassa-theme-2.4"
 
 [params.posts]
     showAuthor = true
-    
+    showDate = true
+    dateFormat = "Mon, Jan 2, 2006"
+
 [params.features]
     enable = true
     # All features are defined in their own files. You can find example items
