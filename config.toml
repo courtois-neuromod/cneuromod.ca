@@ -5,8 +5,8 @@ theme = "hugo-terrassa-theme-2.4"
 
 [params]
     description = "Courtois Project on Neuronal Modelling" # Description for the meta description tag
-    favicon = "images/favicon.png"     # Relative URL for your favicon
-    logo = "images/cneuromod_logo.svg"        # Absolute URL for your logo
+    favicon = "/images/favicon.png"     # Relative URL for your favicon
+    logo = "/images/cneuromod_logo.svg"        # Absolute URL for your logo
 
 [params.posts]
     showAuthor = true
