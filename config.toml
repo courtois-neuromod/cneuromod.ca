@@ -33,7 +33,7 @@ theme = "hugo-terrassa-theme-2.4"
 [params.cta] # Call To Action
     show = true
     cta = "Get Access"  # Text message of the CTA
-    link = "access" # Relative URL
+    link = "https://docs.cneuromod.ca/en/2020-alpha/ACCESS.html" # Absolute URL
 
 [params.contact]
     email = "courtois.neuromod@gmail.com"
