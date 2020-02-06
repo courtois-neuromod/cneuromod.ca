@@ -1,4 +1,4 @@
-baseURL = "http://cneuromod.ca"
+baseURL = "https://cneuromod.ca"
 languageCode = "en-us"
 title = "CNeuroMod"
 theme = "hugo-terrassa-theme-2.4"
