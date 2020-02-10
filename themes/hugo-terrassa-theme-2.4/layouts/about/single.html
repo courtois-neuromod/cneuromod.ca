@@ -9,16 +9,16 @@
         {{ .Content }}
 
         {{ range $index, $element := sort .Site.Data.about "weight" }}
-        {{ if eq (mod $index 3) 0 }}
+        {{ if eq (mod $index 4) 0 }}
         <div class="col-md-12">
             <div class="row">
         {{ end }}
-                <div class="col-md-4 logo-about">
+                <div class="col-md-3 logo-about">
                     <a href="{{ $element.url }}">
                         <img class="img-about" src="{{ $element.image }}">
                     </a>
                 </div>
-        {{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.about) 1 )) }}
+        {{ if or (eq (mod $index 4) 3) (eq $index (sub (len $.Site.Data.about) 1 )) }}
             </div>
         </div>
         {{ end }}
