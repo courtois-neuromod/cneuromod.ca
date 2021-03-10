@@ -8,6 +8,9 @@ theme = "hugo-terrassa-theme-2.4"
     favicon = "/images/favicon.png"     # Relative URL for your favicon
     logo = "/images/cneuromod_logo.svg"        # Absolute URL for your logo
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params.posts]
     showAuthor = true
     showDate = true
@@ -33,7 +36,7 @@ theme = "hugo-terrassa-theme-2.4"
 [params.cta] # Call To Action
     show = true
     cta = "Get Access"  # Text message of the CTA
-    link = "https://docs.cneuromod.ca/en/2020-alpha/ACCESS.html" # Absolute URL
+    link = "access/access" 
 
 [params.contact]
     email = "courtois.neuromod@gmail.com"
