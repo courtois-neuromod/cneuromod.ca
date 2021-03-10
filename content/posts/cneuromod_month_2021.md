@@ -15,9 +15,8 @@ Every week we will present a series of 3 or 4 talks dealing with one of the CNeu
 
 Check out the schedule below and follow this link to register: https://forms.gle/TvkwWbgJu9gXhUFQ8 . Join us for all the talks or just the ones that are of particular interest to you - you choose. We will take care of sending you a reminder and the Zoom link a few days before.  
 
-For those of you who cannot make a particular talk, talks will be posted on our YouTube channel (courtois.neuromod) at the end of the month. Follow us on twitter  ([@cneuromod](https://twitter.com/cneuromod)) to get up to date information about the CNeuromod Month and the project in general! Also check out our twitter thread:
-<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Our <a href="https://twitter.com/hashtag/cneuromonth21?src=hash&amp;ref_src=twsrc%5Etfw">#cneuromonth21</a> starts next week! Here comes the intro thread 🧵, but check out the full program (and register!) at <a href="https://t.co/L4cQOkT7xZ">https://t.co/L4cQOkT7xZ</a> [0/15]</p>&mdash; courtois-neuromod (@CNeuromod) <a href="https://twitter.com/CNeuromod/status/1369290640949936132?ref_src=twsrc%5Etfw">March 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+For those of you who cannot make a particular talk, talks will be posted on our YouTube channel (courtois.neuromod) at the end of the month. Follow us on twitter  ([@cneuromod](https://twitter.com/cneuromod)) to get up to date information about the CNeuromod Month and the project in general:
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Our <a href="https://twitter.com/hashtag/cneuromonth21?src=hash&amp;ref_src=twsrc%5Etfw">#cneuromonth21</a> starts next week! Here comes the intro thread 🧵, but check out the full program (and register!) at <a href="https://t.co/L4cQOkT7xZ">https://t.co/L4cQOkT7xZ</a> [0/15]</p>&mdash; courtois-neuromod (@CNeuromod) <a href="https://twitter.com/CNeuromod/status/1369290640949936132?ref_src=twsrc%5Etfw">March 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 | Date         | Title           | Speaker  |
 | ------------- |:-------------:| -----:|
