@@ -1,5 +1,5 @@
 weight: 0
 name: "movie10"
 img: "hiddenfigures.jpg"
-url: "https://docs.cneuromod.ca/en/2020-alpha/DATASETS.html#movie10"
+url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#movie10"
 description: "About ten hours of fMRI data per subject while watching the following movies: Bourne Supremacy, The Wolf of Wall Street, Life documentary (twice), Hidden Figures (twice)."
