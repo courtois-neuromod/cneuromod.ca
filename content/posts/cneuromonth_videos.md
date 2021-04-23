@@ -15,6 +15,7 @@ Have a good time watching them, I hope you'll appreciate our cutting edge specia
 ![recording setup](cneuromonth_videos/record_setup.jpg)
 
 Here is the list of the talks :
+
 | Date         | Title           | Speaker  |
 | ------------- |:-------------:| -----:|
 | March 15th, 11 am EDT      | [Introduction of CNeuroMod Month and 2020 platform highlights](https://www.youtube.com/watch?v=uwagyJIEBKY) | Julie Boyle, MSc, Project Manager, Basile Pinsard, PhD, Data Manager and Valentina Borghesani, PhD |
