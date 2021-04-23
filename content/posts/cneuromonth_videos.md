@@ -12,7 +12,7 @@ Hello, I am François Paugam, a PhD student and the one in charge of the special
 
 Have a good time watching them, I hope you'll appreciate our cutting edge special effects.   
 
-![recording setup](cneuromonth_videos/record_setup.jpg)
+![recording setup](record_setup.jpg)
 
 Here is the list of the talks :
 
