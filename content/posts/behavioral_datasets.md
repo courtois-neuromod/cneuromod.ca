@@ -19,4 +19,5 @@ _Borghesani, V. Armoza, J., Bellec, P. & Brambati S. (2021) The Triplets Task: a
 
 The second dataset is made of more than 10k of ecologically valid, free from copy-rights limits images. You guest it: we call it **images10k**. Behavioral validation of the appropriate label (e.g., _is that a guitar or banjo?_) and category (e.g., _is that a bird or a mammal?_) for each image is about to start on the citizen science platform Zooniverse. To learn more about it, you can watch [this presentation](https://www.youtube.com/watch?t=1084&v=uwagyJIEBKY&feature=youtu.be) or read the additional information on [the official website](https://www.zooniverse.org/projects/vborghesani/you-see-it-you-name-it). And yes: if you want to help out psychologist, neuroscientists, and computer scientists with a few keystrokes, you can label some image!
 
+
 Many thanks to François Nadeau and Samie-Jade Allard for the preparation of the image stimuli and Jonathan Armoza for the word ones! We also would like to acknowledge the help and support of the Zooniverse team and of all the raters/labelers out there: thanks for ensuring we produce and release the best datasets possible!  
