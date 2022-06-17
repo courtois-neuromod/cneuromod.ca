@@ -216,7 +216,7 @@ body {
   border: 3px solid green;
 }
 
-.caroussel-intro .col-md-3 {
+.carousel-intro .col-md-3 {
     align-items: center;
     display: flex;
     margin-top: 30px;
