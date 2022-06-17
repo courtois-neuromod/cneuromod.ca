@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">{{ .Title }}</h1>
+    </header>
+
+    <div class="carousel-intro">
+        {{ .Content }}
+
+        {{ range $index, $element := sort .Site.Data.collaborators "weight" }}
+        {{ if eq (mod $index 4) 0 }}
+        <div class="col-md-12">
+            <div class="row">
+        {{ end }}
+                <div class="col-md-3 logo-collaborators">
+                    <a href="{{ $element.url }}">
+                        <img style="width:auto height:auto" class="img-collaborators" src="{{ $element.image }}">
+                    </a>
+                    <br><br>
+                </div>
+        {{ if or (eq (mod $index 4) 3) (eq $index (sub (len $.Site.Data.collaborators) 1 )) }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    {{ if ne .Type "page" }}
+    <footer class="post__footer">
+        {{ .Render "tags" }}
+    </footer>
+    {{ end }}
+</article>
+{{ end }}
