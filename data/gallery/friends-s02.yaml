@@ -1,5 +1,5 @@
 weight: 0
 name: "friends-s02"
-img: "friends.jpg"
+img: "friends-s02.jpg"
 url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#friends"
 description: "About ten hours of fMRI data per subject while watching the 2nd season of the Friends TV show."
