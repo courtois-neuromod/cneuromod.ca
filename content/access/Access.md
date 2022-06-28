@@ -18,6 +18,7 @@ If you have any question regarding the access form please send us an email to [c
 ## <p align=center>Relevant documentation</p>
 
 We encourage anyone who wants to apply to read these documents beforehand:
+
 __<u>English versions</u>__
 
 -   Template of the [Data transfer agreement](cneuromod_data_transfer_agreement_en_2022-06-06.pdf). A completed version will be forwarded for signature after the scientific project is approved.
