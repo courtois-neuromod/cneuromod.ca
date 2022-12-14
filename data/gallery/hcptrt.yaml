@@ -1,5 +1,5 @@
-weight: 1
+weight: 0
 name: "hcptrt"
 img: "hcptrt.png"
 url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#hcptrt"
-description: "About ten hours of fMRI data per subject, including 15 repetitions of all the tasks used in the Human Connectome Project: resting-state and paradigms probing 7 different cognitive domains."
+description: "About ten hours of fMRI data per subject (N=6), including 15 repetitions of all the tasks used in the Human Connectome Project: resting-state and paradigms probing 7 different cognitive domains."
