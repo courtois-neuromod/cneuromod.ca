@@ -1,0 +1,5 @@
+weight: 10
+name: "harrypotter"
+img: "harrypotter.jpg"
+url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#harrypotter"
+description: "About one hour of fMRI data per subject (N=5) while reading chapter 9 of the book Harry Potter and the philosopher's stone."

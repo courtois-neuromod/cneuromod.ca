@@ -1,0 +1,5 @@
+weight: 9
+name: "shinobi"
+img: "shinobi.jpg"
+url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#shinobi"
+description: "About ten hours of fMRI data per subject (N=4) while playing the game Shinobi III Revenge of the Ninja Master."

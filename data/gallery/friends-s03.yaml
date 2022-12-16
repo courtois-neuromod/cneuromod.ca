@@ -1,0 +1,5 @@
+weight: 4
+name: "friends-s03"
+img: "friends-s03.jpg"
+url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#friends"
+description: "About ten hours of fMRI data per subject (N=6) while watching the 3rd season of the Friends TV show."
