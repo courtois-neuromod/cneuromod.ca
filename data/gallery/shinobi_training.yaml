@@ -1,5 +1,5 @@
 weight: 8
 name: "shinobi_training"
 img: "shinobi.jpg"
-url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#shinobi_training"
+url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#shinobi-training"
 description: "Pure behavioural dataset (N=4) while participants trained on the game Shinobi III Revenge of the Ninja Master at home. Total duration of game play is variable across subjects and levels."
