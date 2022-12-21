@@ -1,0 +1,5 @@
+weight: 0
+name: "anat"
+img: "anat.jpg"
+url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#anat"
+description: "Longitudinal anatomical images of the brain and upper spinal cord (N=6) at an approximate rate of 4 sessions a year. "
