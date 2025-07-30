@@ -1,0 +1,5 @@
+weight: 0
+name: "things"
+img: "things.jpg"
+url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#things"
+description: "fMRI data for ~4 000 images x 3 repetitions across 720 image THINGS categories per subject (N=4)."

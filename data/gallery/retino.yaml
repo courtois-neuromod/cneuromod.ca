@@ -1,0 +1,5 @@
+weight: 0
+name: "retinotopy"
+img: "things.jpg"
+url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#retinotopy"
+description: "fMRI data for a retinotopy task (N=3)."
