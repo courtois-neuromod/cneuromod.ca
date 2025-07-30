@@ -1,5 +1,5 @@
 weight: 0
 name: "floc"
-img: "things.jpg"
+img: "floc.jpg"
 url: "https://docs.cneuromod.ca/en/latest/DATASETS.html#floc"
-description: "fMRI data for a functional localizer task for visual regions (N=4)."
+description: "fMRI data for a functional localizer task for category-sensitive visual regions (N=4)."
