@@ -1,0 +1,10 @@
+# www.cneuromod.ca is obsolete: forward every URL to https://docs.cneuromod.ca
+# First match wins; "!" forces the rule even if a file exists at that path.
+/access/*                  https://docs.cneuromod.ca/contents/access.html    301!
+/gallery/*                 https://docs.cneuromod.ca/contents/datasets.html  301!
+/carousel/*                https://docs.cneuromod.ca/contents/mri.html       301!
+/about/*                   https://docs.cneuromod.ca/OVERVIEW.html           301!
+/sections/*                https://docs.cneuromod.ca/OVERVIEW.html           301!
+/collaborators/*           https://docs.cneuromod.ca/AUTHORS.html            301!
+/posts/release_2020alpha/* https://docs.cneuromod.ca/contents/datasets.html  301!
+/*                         https://docs.cneuromod.ca/                        301!

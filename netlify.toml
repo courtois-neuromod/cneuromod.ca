@@ -1,0 +1,4 @@
+# The Hugo site is retired: publish only the redirect map, no build.
+[build]
+  publish = "redirect"
+  command = ""
